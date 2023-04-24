@@ -27,7 +27,7 @@ workspace "MTASA"
 	if os.host() == "macosx" then
 		platforms { "x64" }
 	else
-		platforms { "x86", "x64", "arm", "arm64" }
+		platforms { "x86", "x64", "arm", "arm64", "arm86" }
 	end
 
 	if _OPTIONS["gccprefix"] then
